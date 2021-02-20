@@ -6,15 +6,14 @@
 /*   By: pcatheri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/20 21:58:48 by pcatheri          #+#    #+#             */
-/*   Updated: 2021/02/20 23:34:36 by pcatheri         ###   ########.fr       */
+/*   Updated: 2021/02/20 23:43:06 by pcatheri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
 
-int ft_str_is_lowercase(char *str)
+int	ft_str_is_lowercase(char *str)
 {
 	char n;
-   
+
 	n = 0;
 	while (str[n] != '\0')
 	{
